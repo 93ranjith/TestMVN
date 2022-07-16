@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8272" started-at="2022-07-14T04:24:52Z" finished-at="2022-07-14T04:25:01Z">
+  <suite name="Default suite" duration-ms="5755" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8272" started-at="2022-07-14T04:24:52Z" finished-at="2022-07-14T04:25:01Z">
+    <test name="Default test" duration-ms="5755" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
       <class name="com.test.TestFacebook">
-        <test-method status="PASS" signature="lanuchUrl()[pri:0, instance:com.test.TestFacebook@71b1176b]" name="lanuchUrl" duration-ms="8223" started-at="2022-07-14T04:24:52Z" finished-at="2022-07-14T04:25:01Z">
+        <test-method status="PASS" signature="exquting_testcase()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exquting_testcase" is-config="true" duration-ms="32" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exquting_testcase -->
+        <test-method status="PASS" signature="lanuchUrl()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="lanuchUrl" duration-ms="5697" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuchUrl -->
+        <test-method status="PASS" signature="exequting_Testcase_done()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exequting_Testcase_done" is-config="true" duration-ms="0" started-at="2022-07-15T03:46:40Z" finished-at="2022-07-15T03:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exequting_Testcase_done -->
       </class> <!-- com.test.TestFacebook -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

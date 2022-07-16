@@ -1,8 +1,13 @@
 package com.test;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.google.common.annotations.VisibleForTesting;
@@ -10,12 +15,15 @@ import com.google.common.annotations.VisibleForTesting;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestFacebook extends BaseClasses {
+	@BeforeClass
+	public void exquting_testcase() {
+		System.out.println("today exequting start====>");
+
+	}
 	
 @Test
-		private void lanuchUrl() {
-			// TODO Auto-generated method stub
-
-		
+public void lanuchUrl() {
+			
 		launchBrowser();
 		maxWindow();
 		toPassUrl("https://www.facebook.com/");
@@ -26,5 +34,14 @@ public class TestFacebook extends BaseClasses {
 		closeWindow();
 
 		}
+@AfterClass
+public void exequting_Testcase_done() throws AWTException {
+	System.out.println("testcase exequting Done==>");
+ Robot rk =new Robot();
+ 
+ rk.equals(driver);
 
+ 
+ 
+}
 }
