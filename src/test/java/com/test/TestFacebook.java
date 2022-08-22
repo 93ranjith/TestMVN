@@ -2,9 +2,15 @@ package com.test;
 
 import java.awt.AWTException;
 import java.awt.Robot;
+import java.io.File;
+import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -22,26 +28,28 @@ public class TestFacebook extends BaseClasses {
 	}
 	
 @Test
-public void lanuchUrl() {
+public void lanuchUrl() throws IOException {
 			
 		launchBrowser();
 		maxWindow();
 		toPassUrl("https://www.facebook.com/");
 	
-		driver.findElement(By.id("email")).sendKeys("kumaresan@123");
+		WebElement email = driver.findElement(By.id("email"));
+		email.sendKeys("kumaresan@123");
+	
 		driver.findElement(By.id("pass")).sendKeys("4526653236");
 		driver.findElement(By.name("login")).click();
+		
+		TakesScreenshot TS = (TakesScreenshot)driver;
+		File src = TS.getScreenshotAs(OutputType.FILE);
+		File disr =new File("C:\\Users\\kumar\\OneDrive\\Desktop\\testmvn\\TestMVN\\Screenshot\\facebook.png");
+		FileUtils.copyFile(src, disr);
 		closeWindow();
 
 		}
 @AfterClass
 public void exequting_Testcase_done() throws AWTException {
-	System.out.println("testcase exequting Done==>");
- Robot rk =new Robot();
- 
- rk.equals(driver);
-
- 
+	System.out.println("testcase exequting Done==>"); 
  
 }
 }

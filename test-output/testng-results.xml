@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5755" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
+  <suite name="Suite" duration-ms="9453" started-at="2022-08-22T14:59:09Z" finished-at="2022-08-22T14:59:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5755" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
+    <test name="Test" duration-ms="9453" started-at="2022-08-22T14:59:09Z" finished-at="2022-08-22T14:59:18Z">
       <class name="com.test.TestFacebook">
-        <test-method status="PASS" signature="exquting_testcase()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exquting_testcase" is-config="true" duration-ms="32" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:34Z">
+        <test-method status="PASS" signature="exquting_testcase()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exquting_testcase" is-config="true" duration-ms="17" started-at="2022-08-22T14:59:09Z" finished-at="2022-08-22T14:59:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exquting_testcase -->
-        <test-method status="PASS" signature="lanuchUrl()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="lanuchUrl" duration-ms="5697" started-at="2022-07-15T03:46:34Z" finished-at="2022-07-15T03:46:40Z">
+        <test-method status="PASS" signature="lanuchUrl()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="lanuchUrl" duration-ms="9393" started-at="2022-08-22T14:59:09Z" finished-at="2022-08-22T14:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuchUrl -->
-        <test-method status="PASS" signature="exequting_Testcase_done()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exequting_Testcase_done" is-config="true" duration-ms="0" started-at="2022-07-15T03:46:40Z" finished-at="2022-07-15T03:46:40Z">
+        <test-method status="PASS" signature="exequting_Testcase_done()[pri:0, instance:com.test.TestFacebook@6d2a209c]" name="exequting_Testcase_done" is-config="true" duration-ms="0" started-at="2022-08-22T14:59:18Z" finished-at="2022-08-22T14:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exequting_Testcase_done -->
       </class> <!-- com.test.TestFacebook -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
